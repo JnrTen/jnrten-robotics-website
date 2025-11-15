@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JnrTen Robotics Club</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">JnrTen Robotics</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#team" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sponsors" class="nav-link">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>BUILD THE FUTURE, ONE ROBOT AT A TIME</h1>
+            <p>Join JnrTen Robotics Club and be part of innovative projects that shape tomorrow's technology</p>
+            <button class="cta-button" onclick="openWhatsApp()">Join Us on WhatsApp</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to JnrTen Robotics Club, where innovation meets engineering. We are a community of passionate students dedicated to pushing the boundaries of robotics and automation.</p>
+                    <p>Our mission is to provide hands-on experience in robotics design, programming, and implementation while fostering creativity and technical excellence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Autonomous Rover" onerror="this.src='https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Autonomous Rover</h3>
+                        <p>An AI-powered rover capable of autonomous navigation and object detection in complex environments.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>ROS</span>
+                            <span>OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Robotic Arm" onerror="this.src='https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'">
+                    </div>
+                    <div class="project-content">
+                        <h3>6-DOF Robotic Arm</h3>
+                        <p>A precision robotic arm with computer vision integration for object manipulation and sorting tasks.</p>
+                        <div class="project-tech">
+                            <span>Arduino</span>
+                            <span>C++</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Drone Project" onerror="this.src='https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Autonomous Drone</h3>
+                        <p>FPV drone with autonomous flight capabilities and real-time data transmission for surveillance applications.</p>
+                        <div class="project-tech">
+                            <span>Pixhawk</span>
+                            <span>Python</span>
+                            <span>Telemetry</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-member1.jpg" alt="Team Lead" onerror="this.src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
+                    </div>
+                    <div class="member-info">
+                        <h3>Gerald Setete</h3>
+                        <p class="member-role">Team Lead</p>
+                        <p class="member-bio">Electrical Engineering major with passion for autonomous systems.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-member2.jpg" alt="Software Lead" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
+                    </div>
+                    <div class="member-info">
+                        <h3>Shantel Mundondo</h3>
+                        <p class="member-role">Software Lead</p>
+                        <p class="member-bio">Computer Science specializing in AI and machine learning.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-member3.jpg" alt="Hardware Lead" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
+                    </div>
+                    <div class="member-info">
+                        <h3>Eddie Mupa</h3>
+                        <p class="member-role">Hardware Lead</p>
+                        <p class="member-bio">Mechanical Engineering focused on robotics design and fabrication.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-member4.jpg" alt="Vision Specialist" onerror="this.src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
+                    </div>
+                    <div class="member-info">
+                        <h3>Yolanda Mulauzi</h3>
+                        <p class="member-role">Computer Vision</p>
+                        <p class="member-bio">AI researcher passionate about perception systems for robotics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="sponsors">
+        <div class="container">
+            <h2>Our Sponsors</h2>
+            <div class="sponsors-grid">
+                <div class="sponsor-logo">
+                    <img src="images/sponsor1.png" alt="Sponsor 1" onerror="this.src='https://logos-download.com/wp-content/uploads/2016/02/Intel_Logo_2006.png'">
+                </div>
+                <div class="sponsor-logo">
+                    <img src="images/sponsor2.png" alt="Sponsor 2" onerror="this.src='https://logos-download.com/wp-content/uploads/2016/02/Arduino_Logo.png'">
+                </div>
+                <div class="sponsor-logo">
+                    <img src="images/sponsor3.png" alt="Sponsor 3" onerror="this.src='https://logos-download.com/wp-content/uploads/2016/10/Bosch_logo.png'">
+                </div>
+                <div class="sponsor-logo">
+                    <img src="images/sponsor4.png" alt="Sponsor 4" onerror="this.src='https://logos-download.com/wp-content/uploads/2016/11/Nvidia_logo.png'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Join Our Club</h3>
+                <p>Interested in robotics? We're always looking for passionate students to join our team.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <strong>Email:</strong> contact@jnrtenrobotics.com
+                    </div>
+                    <div class="contact-item">
+                        <strong>Meeting Times:</strong> Wednesdays 6-8 PM
+                    </div>
+                    <div class="contact-item">
+                        <strong>Location:</strong> Engineering Building, Room 304
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="whatsappForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="button" class="cta-button" onclick="sendToWhatsApp()">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
